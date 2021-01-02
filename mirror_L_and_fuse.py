@@ -5,9 +5,10 @@
 #Original by Opponent019; adaptation by OSformula
 
 import bpy
-
+ 
 obj = bpy.context.object
 spIndex = obj.active_shape_key_index
+shapeKeySetName = bpy.context.object.active_shape_key.id_data.name
 i = 0
 
 ### EDITABLE VARIABLES ###
@@ -23,6 +24,7 @@ i = spIndex
 x = 0
 skOR = len(shapekeysList)
 
+
 while i < skOR:
     shapekeysList[i].value = 1                                              # enable shapekey before copying
     obj.active_shape_key_index = i                                          # select shape key to mix
@@ -35,9 +37,9 @@ while i < skOR:
         bpy.ops.object.shape_key_mirror(use_topology=False)
         x += 1
         #now making a shapekey that combines both left and right
-        bpy.data.shape_keys["Key"].key_blocks[newname].value = 1 
+        bpy.data.shape_keys[shapeKeySetName].key_blocks[newname].value = 1 
         obj.shape_key_add(name=str(obj.active_shape_key.name).replace(".R",""), from_mix=True)   
-        bpy.data.shape_keys["Key"].key_blocks[newname].value = 0 
+        bpy.data.shape_keys[shapeKeySetName].key_blocks[newname].value = 0 
         x += 1
         obj.active_shape_key_index = i                                      # select original selection
     shapekeysList[i].value = 0
