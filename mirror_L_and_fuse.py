@@ -44,3 +44,8 @@ while i < skOR:
         obj.active_shape_key_index = i                                      # select original selection
     shapekeysList[i].value = 0
     i += 1
+
+        
+#Hard-coded exceptions
+bpy.data.shape_keys[shapeKeySetName].key_blocks["wink"].name = "blink"          #winkL + winkR
+bpy.data.shape_keys[shapeKeySetName].key_blocks["wink_happy"].name = "smile"    #wink_smileL + wink_smileR
