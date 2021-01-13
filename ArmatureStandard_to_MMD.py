@@ -69,7 +69,11 @@ namelist = [
 ("thigh.R", "右足"),
 ("shin.R", "右ひざ"),
 ("foot.R", "右足首"),
-("toe.R", "右足先EX")
+("toe.R", "右足先EX"),
+("foot.IK.L", "左足ＩＫ"),
+("toe.IK.L", "左つま先ＩＫ"),
+("foot.IK.R", "右足ＩＫ"),
+("toe.IK.R", "右つま先ＩＫ"),
 
 ]
 
