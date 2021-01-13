@@ -6,4 +6,8 @@ some shark coded this idk ask him
   
 * **ArmatureStandard_to_MMD**: Renames all bones into its MMD variation (aka translated into Japanese). Also renames Vertex Groups related to those bones. Who the frick thought it was OK for MMD to have a different bone standard system btw? Adapted from https://blender.stackexchange.com/questions/69505/renaming-bones-with-python
   * **How it works?**: First verse same as second verse: just grab your desired object and run the script.
+  
+* **EasyJointing_mmd_tools**: This is more of a macro than a script but meh, it works
+  * **How it works?**: Install [mmd_tools](https://github.com/powroupi/blender_mmd_tools) for your Blender distribution, then in Scripting mode, select two rigid bodies and it'll make a Joint between those two, useful for skirts, capes and related.
+
 
