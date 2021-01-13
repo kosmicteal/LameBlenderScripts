@@ -10,9 +10,6 @@ selection_names = bpy.context.selected_objects
 first_element = selection_names[0].name
 second_element = selection_names[1].name
 
-print(first_element)
-print(second_element)
-
 bpy.context.scene.tool_settings.transform_pivot_point = 'MEDIAN_POINT'
 
 bpy.context.area.type = 'VIEW_3D'
