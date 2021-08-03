@@ -13,3 +13,4 @@ some shark coded this idk ask him ([you can also donate in case these scripts he
   * **How it works?**: Install [mmd_tools](https://github.com/powroupi/blender_mmd_tools) for your Blender distribution, then in Scripting mode, select two rigid bodies and it'll make a Joint between those two, useful for skirts, capes and related.
 
 
+## Credits
