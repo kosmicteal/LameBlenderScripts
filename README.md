@@ -10,8 +10,9 @@ All extra code has been done by me ([you can also donate in case these scripts h
 
 ## Main add-on
 * **LBS Toolbox** : Includes all the next plugins inside its own Panel (View3D -> Tool).
-  * **How it works?**: Download the LBS_toolbox.py file, go to Blender -> Edit -> Preferences -> Add-ons -> Install and select the .py file.
-  * **Main changes between the Add-on versions and the Script ones**: 
+  * **How it works?**: Download the LBS_toolbox.py file located on the "toolbox" folder, go to Blender -> Edit -> Preferences -> Add-ons -> Install and select the .py file.
+
+* **Main changes between the Add-on versions and the Script ones**: 
    * They all work in buttons and they are grouped in sub-panels
    * Each button disables itself if it's in a mode that it can't work
    * (OBJECT MODE) mirror_L_and_Fuse now avoids throwing an error
