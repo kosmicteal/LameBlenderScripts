@@ -6,7 +6,7 @@ bl_info = {
     "blender": (2, 90, 0),
     "location": "3D View > Tool",
     "warning": "", # used for warning icon and text in addons panel
-    "doc_url": "https://github.com/OSformula/LameBlenderScripts/blob/main/README.md#credits",
+    "doc_url": "https://github.com/OSformula/LameBlenderScripts/blob/main/README.md#credits-and-code-adapted-from",
     "category": "3D View"
 }
 
