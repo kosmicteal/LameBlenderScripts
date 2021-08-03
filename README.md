@@ -3,7 +3,7 @@
 
 ## Credits and code adapted from
 All extra code has been done by me ([you can also donate in case these scripts helped you a bit](https://ko-fi.com/osformula) winkwink) with adaptations from:
-* **LBS Toolbox** : [p2or] (https://blender.stackexchange.com/users/3710/p2or) and [brockmann] (https://blender.stackexchange.com/users/31447/brockmann)
+* **LBS Toolbox** : [p2or](https://blender.stackexchange.com/users/3710/p2or) and [brockmann](https://blender.stackexchange.com/users/31447/brockmann)
 * **mirror_L_and_fuse**: [Opponent019](https://blender.stackexchange.com/users/13951/opponent019)
 * **ArmatureStandard_to_MMD**: [batFINGER](https://blender.stackexchange.com/users/15543/batfinger)
 * **Parent In Order**: [Lemon](https://blender.stackexchange.com/users/19156/lemon)
