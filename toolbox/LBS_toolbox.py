@@ -1,5 +1,5 @@
 bl_info = {
-    "name": "LBS Plugins",
+    "name": "LBS Toolbox",
     "description": "Set of all LameBlenderScripts joined into a single Panel",
     "author": "OS_formula (https://osformula.com/)",
     "version": (1, 0, 0),
@@ -385,7 +385,7 @@ class LBS_MT_Menu(bpy.types.Menu):
 # ------------------------------------------------------------------------
 
 class LBS_PT_Panel(Panel):
-    bl_label = "LBS Plugins"
+    bl_label = "LBS Toolbox"
     bl_idname = "LBS_PT_Panel"
     bl_space_type = "VIEW_3D"   
     bl_region_type = "UI"
