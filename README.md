@@ -1,5 +1,6 @@
 # LameBlenderScripts
 ![](https://img.shields.io/badge/number%20of%20plugins-5-lightgrey) ![](https://img.shields.io/badge/intended%20for-Blender-orange)
+![](https://github.com/kosmicteal/LameBlenderScripts/blob/main/03_LameBlenderScripts.png)
 
 ## Credits and code adapted from
 All extra code has been done by me ([you can also donate in case these scripts helped you a bit](https://ko-fi.com/osformula) winkwink) with adaptations from:
